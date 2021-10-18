@@ -1,0 +1,33 @@
+
+==============================
+
+NomeTabella = Concessionaria
+
+==============================
+
+id (chiave primaria [indice]) - intero - MEDIUMINT
+marca - stringa - VARCHAR (20)
+modello - stringa - VARCHAR (20)
+anno - data - YEAR
+prezzo - numero decimale - FLOAT (8, 2)
+carrozzeria - stringa - VARCHAR (20)
+numero_porte - intero - TYNYINT
+numero_posti - intero - TYNYINT
+capacità_serbatoio - intero - MEDIUMINT
+peso - intero - MEDIUMINT
+cilindrata - intero - MEDIUMINT
+lunghezza - decimale - FLOAT (3, 2)
+larghezza - decimale - FLOAT (3, 2)
+altezza - decimale - FLOAT (3, 2)
+motore - intero - MEDIUMINT
+cilindrata - intero - MEDIUMINT
+alimentazione - stringa - VARCHAR (9)
+potenza - intero - MEDIUMINT
+trazione - stringa - VARCHAR (10)
+cambio - stringa - VARCHAR (11)
+velocità_massima - intero - MEDIUMINT
+Accelerazione - decimale - FLOAT (1 1)
+omologazione_antinquin - stringa - (9)
+consumi_urbano - intero - TINYINT
+consumi_extraurbano - intero - TINYINT
+consumi_misto - intero TINYINT
