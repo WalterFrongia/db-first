@@ -26,7 +26,7 @@ potenza - intero - MEDIUMINT
 trazione - stringa - VARCHAR (10)
 cambio - stringa - VARCHAR (11)
 velocità_massima - intero - MEDIUMINT
-Accelerazione - decimale - FLOAT (1 1)
+Accelerazione - decimale - FLOAT (2 1)
 omologazione_antinquin - stringa - (9)
 consumi_urbano - intero - TINYINT
 consumi_extraurbano - intero - TINYINT
