@@ -5,12 +5,13 @@ NomeTabella = Concessionaria
 
 ==============================
 
-id (chiave primaria [indice]) - intero - MEDIUMINT
-marca - stringa - VARCHAR (20)
-modello - stringa - VARCHAR (20)
-anno - data - YEAR
-prezzo - numero decimale - FLOAT (8, 2)
-carrozzeria - stringa - VARCHAR (20)
+id (chiave primaria [indice]) - intero - MEDIUMINT - PRIMARY_KEY [UNIQUE NOTNULL] - AUTOINCREMENT - "16m+"
+marca - stringa - VARCHAR (20) - NOT NULL
+modello - stringa - VARCHAR (20) - NOT NULL
+anno - data - YEAR 
+prezzo - numero decimale - FLOAT (8, 2) - NOT NULL 
+kilometri - intero - MEDIUMINT - NOT NULL
+carrozzeria - stringa - VARCHAR (20)  
 numero_porte - intero - TYNYINT
 numero_posti - intero - TYNYINT
 capacità_serbatoio - intero - MEDIUMINT
@@ -19,13 +20,13 @@ cilindrata - intero - MEDIUMINT
 lunghezza - decimale - FLOAT (3, 2)
 larghezza - decimale - FLOAT (3, 2)
 altezza - decimale - FLOAT (3, 2)
-motore - intero - MEDIUMINT
-cilindrata - intero - MEDIUMINT
+motore - intero - SMALLINT
+cilindrata - intero - SMALLINT
 alimentazione - stringa - VARCHAR (9)
 potenza - intero - MEDIUMINT
 trazione - stringa - VARCHAR (10)
 cambio - stringa - VARCHAR (11)
-velocità_massima - intero - MEDIUMINT
+velocità_massima - intero - SMALLINT
 Accelerazione - decimale - FLOAT (2 1)
 omologazione_antinquin - stringa - (9)
 consumi_urbano - intero - TINYINT
